@@ -41,7 +41,7 @@ Future<void> initialisePreRunData() async {
   await EasyLocalization.ensureInitialized();
   TrackLatencies.dateTime5 = DateTime.now();
 
- AnalyticsService.setFirebaseAnalytics = FirebaseAnalytics.instance;
+  AnalyticsService.setFirebaseAnalytics = FirebaseAnalytics.instance;
 
   try {
     TrackLatencies.reportLatenciesToFirebase();
