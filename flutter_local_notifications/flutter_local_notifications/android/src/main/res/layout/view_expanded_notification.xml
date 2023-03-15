@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhite"
+                android:orientation="vertical"
+                android:weightSum="23.3">
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5" />
+
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.2"
+                        android:orientation="horizontal"
+                        android:weightSum="18"
+                        android:layout_centerVertical="true">
+
+                <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.5" />
+
+                <ImageView
+                                android:id="@+id/big_icon"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/icon_small"
+                                android:gravity="center"
+                                android:layout_weight="2"
+                                android:scaleType="fitCenter" />
+
+                <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="0.5" />
+
+                <TextView
+                                android:id="@+id/app_title"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="11"
+                                android:text="फोन पंचायत"
+                                android:layout_gravity="center_vertical"
+                                android:layout_centerVertical="true"
+                                android:orientation="vertical"
+                                android:textColor="#000000"
+                                android:maxLines="1"
+                                android:textStyle="bold"
+                                android:gravity="start"
+                                android:lineSpacingExtra="4dp"
+                                android:autoSizeTextType="uniform"
+                                android:autoSizeMinTextSize="0.1dp" />
+
+
+                <TextView
+                                android:id="@+id/time"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="3"
+                                android:text="53 min"
+                                android:layout_gravity="center_vertical"
+                                android:layout_centerVertical="true"
+                                android:orientation="vertical"
+                                android:textColor="#000000"
+                                android:maxLines="1"
+                                android:textStyle="bold"
+                                android:lineSpacingExtra="4dp"
+                                android:gravity="end"
+                                android:autoSizeTextType="uniform"
+                                android:autoSizeMinTextSize="0.1dp" />
+
+                <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5" />
+
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:weightSum="22"
+                        android:layout_weight="3.3"
+                        android:orientation="horizontal">
+                <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+                <TextView
+                                android:id="@+id/post_description"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="20"
+                                android:textColor="#000000"
+                                android:lineSpacingMultiplier="1"
+                                android:maxLines="3"
+                                android:textStyle="bold"
+                                android:text="description description description description description description description akjf ah  ajhd loonggggggggggggggggggggggg iaubf aij jd f jid  asbud ousbd ouds ousd 2 "
+                                android:gravity="center_vertical"
+                                android:autoSizeTextType="uniform"
+                                android:autoSizeMinTextSize="1dp"
+                                android:autoSizeMaxTextSize="1000dp" />
+                <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.5" />
+
+
+        <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:id="@+id/post_image"
+                        android:layout_weight="14"
+                        android:src="@drawable/icon_small"
+                        android:layout_centerVertical="true" />
+
+        <!--    </LinearLayout>-->
+
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.9" />
+
+        <LinearLayout
+                        xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:orientation="horizontal"
+                        android:layout_alignParentBottom="true"
+                        android:layout_weight="1.5"
+                        android:weightSum="2">
+                <TextView
+                                android:id="@+id/shareButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:textColor="#D80047"
+                                android:text="शेयर करें"
+                                android:maxLines="1"
+                                android:textStyle="bold"
+                                android:autoSizeTextType="uniform"
+                                android:autoSizeMinTextSize="1dp"
+                                android:autoSizeMaxTextSize="1000dp"
+                                android:gravity="center"
+                                android:includeFontPadding="false"
+                                android:lineSpacingExtra="0dp" />
+
+
+                <TextView
+                                android:id="@+id/line2"
+                                style="?android:attr/listSeparatorTextViewStyle"
+                                android:gravity="center_vertical"
+                                android:layout_width="2dp"
+                                android:layout_height="match_parent"
+                                android:background="#D3D3D3" />
+
+
+                <TextView
+                                android:id="@+id/readFullNews"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="पूरी खबर पढ़ें"
+                                android:textColor="#D80047"
+                                android:textStyle="bold"
+                                android:insetTop="0dp"
+                                android:insetBottom="0dp"
+                                android:minWidth="0dp"
+                                android:minHeight="0dp"
+                                android:autoSizeTextType="uniform"
+                                android:autoSizeMinTextSize="0.1dp"
+                                android:autoSizeMaxTextSize="1000dp"
+                                android:gravity="center"
+                                android:includeFontPadding="false"
+                                android:lineSpacingExtra="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.9" />
+
+        <!-- <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.8" /> -->
+
+
+</LinearLayout>

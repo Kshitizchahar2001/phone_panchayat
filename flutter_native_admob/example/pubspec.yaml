@@ -1,0 +1,21 @@
+name: flutter_native_admob_example
+description: Demonstrates how to use the flutter_native_admob plugin.
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_native_admob:
+    path: ../
+
+flutter:
+  uses-material-design: true
